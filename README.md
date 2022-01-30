@@ -2,7 +2,7 @@
 
 **A work in progress**
 
-A server with access to one directory above the public folder is required to install and use this script. Upload the contents of httpd.www to your public folder, upload httpd.private to one directory above your public directory. Your public directory may be named something other than **httpd.www**. It may, for instance, be called **public** or your username. If this is the case you must open httpd.private/system/bootstrap.php and change the two instances of **httpd.www** on line 11 to the name of your public directory. Do the same for **httpd.private** to whatever your private directory is called.
+A server with access to one directory above the public folder is required to install and use this script. Upload the contents of httpd.www to your public folder, upload httpd.private to one directory above your public directory. Your public directory may be named something other than **httpd.www**. It may, for instance, be called **public** or your username. If this is the case you must open httpd.private/system/bootstrap.php and change all instances of **httpd.www** to the name of your public directory. Do the same for **httpd.private** to whatever your private directory is called.
 
 The app runs on SQLite so there's no need for any database installation.
 
