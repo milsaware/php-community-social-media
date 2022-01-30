@@ -20,7 +20,6 @@ There currently isn't a CMS associated with the app so all modifications need to
 - Post new comments
 - Update banner and icon
 - Profile shows previous posts, responses, reposts, followers and following
-- Ability to follow accounts
 - Instant post to timeline
 - Mute function
 - Bio creation
