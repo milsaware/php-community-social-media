@@ -1,0 +1,169 @@
+@media only screen and (max-width: 1074px) {
+	#content-wrapper {
+		width: 780px;
+		left: calc(50% - 255px);
+	}
+	#fullLoad, #profileLoad {
+		font-size: 193px;
+		letter-spacing: -35px;
+	}
+	#profile-section{
+		width:100%;
+	}
+	.section-left{
+		width:33%;
+		left: calc(50vw - 48%);
+	}
+	#section-right{
+		width:62%;
+		right: calc(50vw - 48%);
+	}
+	.sl-banner{
+		width: calc(100% + 20px);
+	}
+	.profile-avatar{
+		width:125px;
+		height:125px;
+		top:-65px;
+	}
+	.profile-uname{
+		left:154px;
+		margin-top:-1px;
+		font-size:19px;
+	}
+	.profile-handle{
+		margin-top:23px;
+		left:148px;
+		font-size:16px;
+	}
+	.profile-banner{
+		height:100px;
+	}
+	#prflsctlft{
+		width:235px;
+		top:183px;
+		height: calc(100vh - 229px);
+	}
+	#prflsctrgt{
+		left:240px;
+		width:540px;
+		top:183px;
+		height: calc(100vh - 229px);
+	}
+	.pbfopt{
+		font-size:12px;
+	}
+	.pbfopt-mbdiv{
+		padding: 0 12px;
+	}
+	.profile-mboptactv, .profile-mbopt{
+		font-size:16px
+	}
+	.profile-mbdiv{
+		padding: 0 35px;
+	}
+	.profile-menubar{
+		top:153px;
+	}
+	.slpnav-block{
+		width: 30%;
+	}
+	.slpnb-count{
+		font-size:16px;
+	}
+	.slpnb-dsc{
+		font-size:11px;
+	}
+	.tlcb-icon-block{
+		width:20%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.section-left .section-block, .sl-banner, .slp-nav, .sl-profilename, .sl-profilehandle{
+		display:none;
+	}
+	#section-right {
+		width: calc(100vw - 15px);
+		left: 8px;
+	}
+	#content-wrapper{
+		width:100%;
+		left:0;
+	}
+	.profile-banner, .pbfoptmenu, #prflsctlft{
+		display:none
+	}
+	.profile-avatar{
+		width: 72px;
+		height: 72px;
+		top: -36px;
+		left: 10px;
+	}
+	#profile-section{
+		position: initial;
+	}
+	.profile-uname {
+		margin-top: -8px;
+		left: 86px;
+		font-size: 17px;
+	}
+	.profile-handle {
+		margin-top: 12px;
+		left: 80px;
+		font-size: 14px;
+	}
+	.profile-followbtn{
+		background-color:initial;
+		color:#3691d6;
+		margin-top: -12px;
+		right: 0;
+	}
+	#prflscttop {
+		width: calc(100% - 2px);
+	}
+	#prflsctrgt {
+		top: 66px;
+		left: 5px;
+		width: calc(100% - 10px);
+		height: calc(100vh - 111px);
+	}
+	.profile-menubar {
+		top: 42px;
+	}
+}
+
+@media only screen and (max-width: 475px) {
+	.slp-sep, .tlcbnav-block, .slp-timestamp{
+		display:none;
+	}
+	.profile-mboptactv, .profile-mbopt {
+		font-size: 13px;
+	}
+	.profile-mbdiv {
+		padding: 0 18px;
+	}
+	.tlb-avatar {
+		width: 45px;
+		height: 45px;
+		border-radius: 100%;
+	}
+	.tlcb-username {
+		font-size: 14px;
+		position: relative;
+		left: -21px;
+		top: -5px;
+	}
+	.tlcb-handle {
+		font-size: 13px;
+		position: relative;
+		display: block;
+		right: 21px;
+		top: -5px;
+	}
+	.tlcb-content {
+		margin-top: 14px;
+		left: -18px;
+		position: relative;
+	}
+}
