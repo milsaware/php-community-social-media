@@ -11,7 +11,7 @@ There currently isn't a CMS associated with the app so all modifications need to
 **Features**
 
 - Responsive design
-- Sign up an log in functionality
+- Sign up and log in functionality
 - Auto update of notification
 - Like/Dislike posts
 - Responses in timeline show in the same block
